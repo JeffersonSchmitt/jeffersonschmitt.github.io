@@ -1,0 +1,39 @@
+.footer{
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 160px;
+  width: 100%;
+}
+.social-container{
+  display: flex;
+  flex-direction: row;
+
+}
+.social-background{
+  background-image: url('../assets/bola-footer.svg');
+  height: 48px;
+  width: 48px;
+}
+.social-background:last-child{
+  margin-left: 16px;
+}
+
+.social-background img{
+  margin: 12px;
+  height: 24px;
+  width: 24px;
+}
+
+a{
+  margin: 0;
+}
+
+.text-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--font-color);
+}

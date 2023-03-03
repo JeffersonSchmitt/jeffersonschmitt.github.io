@@ -1,0 +1,126 @@
+.experiences{
+  width: 100%;
+  background-color: var(--main-bg-color);
+  margin-top: 104px;
+  border-top: 1px solid;
+  border-color: var(--line-bottom-color);
+}
+
+.title{
+  margin-top: 8px;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  user-select: none;
+  color: var(--font-color);
+}
+
+.cards{
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  margin-left: 133px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card:first-child{
+  margin-left: 0;
+}
+.card p{
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  user-select: none;
+  margin: 0;
+  color: var(--font-color);
+}
+
+.logo img{
+  height: 120px;
+}
+.experiences-description{
+ margin-top: 16px;
+ user-select: none;
+}
+.experiences-description:last-child{
+border-bottom: 1px solid;
+border-color: var(--line-bottom-color);
+padding-bottom: 16px;
+
+}
+.logo-empresas{
+  height: 120px;
+  margin-left: 16px;
+}
+
+.logo-glok{
+  height: 120px;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+.logo-jr{
+  height: 82px;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+.experiences-title{
+  display: flex;
+  align-items: center;
+}
+.cargo{
+  font-size: 1.5em;
+  font-weight: 600;
+  user-select: none;
+  margin-left: 16px;
+  color: var(--font-color);
+}
+.medalha-img{
+  padding-left: 16px;
+  height: 24px;
+  width: 24px;
+}
+.data{
+  margin-left: 150px;
+  color: var(--font-color);
+}
+.more-info{
+  color: var(--font-color);
+  font-weight: 400;
+  font-size: 0.6em;
+  opacity: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .cards{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo-glok{
+    height: 80px;
+    margin: 0;
+  }
+  .logo-empresas{
+    height: 80px;
+    margin: 0;
+  }
+  .logo-jr{
+    height: 60px;
+    margin: 0;
+  }
+  .data {
+    margin-left: 16px;
+    color: var(--font-color);
+    font-size: 0.9em;
+    margin-top: 8px;
+  }
+  .title{
+    font-size: 2.2em;
+  }
+}

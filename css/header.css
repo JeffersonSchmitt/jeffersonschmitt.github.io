@@ -1,0 +1,22 @@
+header{
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.line-bottom{
+  border-bottom: 1px solid var(--line-bottom-color);
+}
+
+header p{
+  color: var(--font-color);
+  font-size: 1.2em;
+  margin-left: 16px;
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+.nome{
+  user-select: none;
+}
