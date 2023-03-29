@@ -2,6 +2,7 @@
   background-image: url(../assets/desenho-forma-quadrado-escuro.svg);
   width: 100%;
   border-bottom: 1px solid var(--line-bottom-color);
+  border-top: 1px solid var(--line-bottom-color);
   background-size: contain;
 }
 
@@ -46,7 +47,7 @@
 }
 .card-software-background.-site::before
 {
-  content: "Site de portfolio";
+  content: "Site do portfolio";
 }
 .card-software-background img{
   max-width: 100%;
@@ -54,7 +55,11 @@
 }
 .card-software-background.-erp::before
 {
-  content: "Um erp feito em angular com backend em c#.net";
+  content: "Erp feito em angular e .net core";
+}
+.card-software-background.-fastfood::before
+{
+  content: "Tela de pedido para lanchonete em react";
 }
 .card-software-background:hover::before{
   opacity: 0.8;
@@ -69,5 +74,8 @@
   }
   .card-software-background{
     margin-top: 16px;
+  }
+  .card-container{
+    flex-direction: column;
   }
 }
