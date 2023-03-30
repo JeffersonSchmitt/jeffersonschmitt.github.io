@@ -75,7 +75,9 @@
   .card-software-background{
     margin-top: 16px;
   }
+  
   .card-container{
     flex-direction: column;
   }
+
 }
