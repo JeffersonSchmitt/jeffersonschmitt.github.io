@@ -6,6 +6,13 @@
   border-color: var(--line-bottom-color);
 }
 
+.data .primeiroP{
+  margin-bottom: 10px;
+} 
+.data p{
+  margin-top: 10px;
+}
+
 .title{
   margin-top: 8px;
   text-align: center;
@@ -56,13 +63,9 @@ padding-bottom: 16px;
 .logo-empresas{
   height: 120px;
   margin-left: 16px;
-}
-
-.logo-glok{
-  height: 120px;
-  margin-left: 16px;
   margin-top: 8px;
 }
+
 .logo-jr{
   height: 82px;
   margin-left: 16px;
